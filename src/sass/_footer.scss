@@ -1,0 +1,94 @@
+.footer-bg {
+    background-color: rgba(25, 25, 25, 1);
+    padding-top: 55px;
+    padding-bottom: 81px;
+}
+
+.footer-menu-container {
+    width: 320px;
+
+    .dropdown-center button {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+        padding: 12px 0;
+        border-top: 1px solid rgba(38, 38, 38, 1);
+
+        &:active {
+            color: rgba(255, 255, 255, 1);
+            background-color: transparent !important;
+            border-color: transparent !important;
+            border: none;
+        }
+    }
+}
+
+.footer-menu-container .dropdown-center:last-child button {
+    border-bottom: 1px solid #262626; // Добавляет нижнюю границу только к последней кнопке
+}
+
+.africa-features {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(141, 141, 141, 1);
+    width: 280px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.download-images {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.social-icon-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon-link a {
+    display: flex;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #363636;
+    transition: background-color .3s ease, transform .2s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+
+    a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22.4px;
+        color: rgba(97, 97, 97, 1);
+        text-decoration: none;
+    }
+}
+
+.copyright-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    color: rgba(97, 97, 97, 1);
+}
+
+.footer-contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

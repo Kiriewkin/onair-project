@@ -1,0 +1,53 @@
+@use 'variables' as *;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu';
+}
+
+.min-height-100vh {
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: calc(100% - 20px);
+    max-width: calc(1440px - (75px * 2));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-grey {
+    background-color: rgba(249, 249, 249, 1);
+}
+
+.main-btn {
+    width: 174px;
+    height: 48px;
+    padding: 10px 0px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225, 60, 82, 1);
+    cursor: pointer;
+    border: none;
+    //TEXT
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.38px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}

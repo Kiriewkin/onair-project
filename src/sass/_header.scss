@@ -1,0 +1,12 @@
+.header-mobile {
+    background-color: rgba(0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.first-slide {
+    background: url(./images/content/onair-slide-1.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 390px;
+}
